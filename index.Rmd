@@ -4,6 +4,7 @@ output:
   html_document:
     toc: true
     toc_float: true
+    code_folding: hide
 ---
 
 # This is Matt's awesome website
@@ -35,6 +36,22 @@ Here's a seasonal guide to landscaping
 
 ![](images/landscaping_seasons.png)
 
+Can also embed images using html (sometimes helps if trying to frame, move, center, etc image)
+
+<img src="images/landscaping_seasons.png" style="width:75%">
+
 ## Link to page within the site
 
 [About me](about.html)
+
+## Quarterly Results {.tabset}
+
+### By Product
+
+first tab
+
+### By Region
+
+second tab
+
+## This is a new section
